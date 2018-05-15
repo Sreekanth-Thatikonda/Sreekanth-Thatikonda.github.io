@@ -45,7 +45,7 @@ let getAllData = (searchCriteria) => {
         type: 'GET', 
         dataType: 'json',
 		//url:'url11',
-		url:"http://www.omdbapi.com/?"+searchCriteria+"apikey=78c2ce60",
+		url:"https://www.omdbapi.com/?"+searchCriteria+"apikey=78c2ce60",
 		
 		
         success: (data) => { 
